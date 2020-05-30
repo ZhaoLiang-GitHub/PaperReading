@@ -9,4 +9,5 @@
     - TransH《Knowledge Graph Embedding by Translating on Hyperplanes》
     - TransR《Learning Entity and Relation Embeddings for Knowledge Graph Completion》
     - TransD《Knowledge Graph Embedding via Dynamic Mapping Matrix 》
+    - TransM《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》
 
