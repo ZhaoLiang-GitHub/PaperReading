@@ -7,3 +7,5 @@
   - TransX
     - TransE《Translating Embeddings for Modeling Multi-relational Data》
     - TransH《Knowledge Graph Embedding by Translating on Hyperplanes》
+    - TransR《Learning Entity and Relation Embeddings for Knowledge Graph Completion》
+
