@@ -1,1 +1,24 @@
-本文是TransM《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》的论文阅读笔记，如果有同学在做相关工作，可以邮件和我联系zhaoliang19960421@outlook.com
+本文记录了TransM《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》的论文阅读，如果有同学在做相关的工作，请通过邮件和我沟通联系zhaoliang19960421@outlook.com
+# 背景
+TransM算法是基于TransE算法进行的改进，目的还是为了解决在TransE中无法处理的一对多、多对一、多对多和自反关系问题。在TransM算法中将这个问题描述成了TransE在处理多类型关系时不够灵活和不能很好的得到表征结果，我觉得这个解释并没有在TransH解释的足够清楚。
+# 改进
+TransM的思路还是和TransE是一致的，就是关系是实体之间的翻译功能，使用的损失函数还是TransE是一样的，还是使得正例的势能差值最大，负例的势能差值最小。为了解决多类型关系这个问题，TransM认为不同的关系类型应该具有不同的权重，利用不同的权重来更新参数。
+具体意思就是一对一关系类型的三元组在计算势能差值时的权重最高，因为他的权重完全是由这个一个三元组对儿来表达，但是多对一的关系的权重较低，因为多对一的权重应该由这多个三元组对儿一起来表达，所以在每个三元组对儿身上的权重就应该下降。
+利用给不同的关系的三元组对儿不同的权重，来调整不同的三元组对儿的势能差值在对合页损失函数的影响。
+# 做法
+TransM的做法和TransE相比，就是多了个权重系数
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200530171655128.png)
+其中权重系数的计算方法是
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200530171831978.png)
+损失函数和TransE的一样，
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200530171725894.png)
+# 伪代码
+TransM的伪代码和TransE相比就是在初始化之后多了个计算权重的过程，
+但是权重系数是**固定不变**，使用**随机初始化的实体及关系向量**计算得到的
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200530172027132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIyMjM1MDE3,size_16,color_FFFFFF,t_70)
+从论文的截图中我们可以看到，使用最开始随机初始化的实体及关系向量计算了每个三元组的权重
+# 总结
+TransM算法通过给三元组不同的权重，利用不同的权重来影响势能差结果对于损失函数的效果，从而实现的对于多对一、一对多关系尽可能的消除TransE带来的影响。
+但是我个人觉得存在两个问题
+- 通过增加权重，实际上并没有解决多对一中，多的一样实体相等的状态，只是延缓了这个过程，
+- 每个三元组的权重是一个固定的值，采用的是随机初始化的向量经过计算之后的结果，利用动态的向量计算权重是不是可解释性更高效果更好？
