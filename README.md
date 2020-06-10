@@ -5,11 +5,11 @@
 
 - GraphEmbedding
   - TransX
-    - TransE《Translating Embeddings for Modeling Multi-relational Data》
-    - TransH《Knowledge Graph Embedding by Translating on Hyperplanes》
-    - TransR《Learning Entity and Relation Embeddings for Knowledge Graph Completion》
-    - TransD《Knowledge Graph Embedding via Dynamic Mapping Matrix 》
-    - TransM《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》
-    - TransA《TransA: An Adaptive Approach for Knowledge Graph Embedding》-未完成
+    - TransE,NIPS2013,《Translating Embeddings for Modeling Multi-relational Data》
+    - TransH,AAAI2014,《Knowledge Graph Embedding by Translating on Hyperplanes》
+    - TransR,AAAI2015,《Learning Entity and Relation Embeddings for Knowledge Graph Completion》
+    - TransD,ACL2015,《Knowledge Graph Embedding via Dynamic Mapping Matrix 》
+    - TransM,PACLIC2014,《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》
+    - TransA,arXiv2015,《TransA: An Adaptive Approach for Knowledge Graph Embedding》-未完成
 
 
