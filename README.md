@@ -10,6 +10,6 @@
     - TransR,AAAI2015,《Learning Entity and Relation Embeddings for Knowledge Graph Completion》
     - TransD,ACL2015,《Knowledge Graph Embedding via Dynamic Mapping Matrix 》
     - TransM,PACLIC2014,《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》
-    - TransA,arXiv2015,《TransA: An Adaptive Approach for Knowledge Graph Embedding》-未完成
+    - TransA,arXiv2015,《TransA: An Adaptive Approach for Knowledge Graph Embedding》
 
 
