@@ -11,5 +11,6 @@
     - TransD,ACL2015,《Knowledge Graph Embedding via Dynamic Mapping Matrix 》
     - TransM,PACLIC2014,《Transition-based Knowledge Graph Embedding with Relational Mapping Properties》
     - TransA,arXiv2015,《TransA: An Adaptive Approach for Knowledge Graph Embedding》
-
-
+    - TranSparse,AAAI2016,《Knowledge Graph Completion with Adaptive Sparse Transfer Matrix》
+- RecommendSystem
+    - SurveyReview
