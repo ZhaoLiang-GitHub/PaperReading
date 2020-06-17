@@ -1,0 +1,1 @@
+本文记录了有关TRanSparse《Knowledge Graph Completion with Adaptive Sparse Transfer Matrix》论文的相关情况，如果有做相关内容的同学可以邮件与我联系 zhaoliang19960421@outlook.com
