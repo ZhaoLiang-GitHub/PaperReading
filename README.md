@@ -4,9 +4,11 @@
 如果有同学在看到该仓库后，有阅读相同的论文，可以通过邮件与我沟通联系 zhaoliang19960421@outlook.com
 
 - GraphEmbedding
+  - SurveyReview
+    |model name|booktitle|title|author|
+    |:-:|:-:|:-:|:-:|
 
-  - TransX
-
+  - point-wise space(TransX)
     |model name|booktitle|title|author|
     |:-:|:-:|:-:|:-:|
     TransE|NIPS2013|Translating Embeddings for Modeling Multi-relational Data|Antoine Bordes, Nicolas Usunier, Alberto Garcia-Dura ́n
@@ -16,6 +18,9 @@
     TransM|PACLIC2014|Transition-based Knowledge Graph Embedding with Relational Mapping Properties|Miao Fan, Qiang Zhou, Emily Chang, Thomas Fang Zheng,
     TransA|arXiv2015|TransA: An Adaptive Approach for Knowledge Graph Embedding|Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu
     TranSparse|AAAI2016|Knowledge Graph Completion with Adaptive Sparse Transfer Matrix|Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao
+  - Gaussian space
+    |model name|booktitle|title|author|
+    |:-:|:-:|:-:|:-:|
     KG2E|CIKM2015|Learning to Represent Knowledge Graphs with Gaussian Embedding|Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao
 
 - RecommendSystem|
