@@ -27,3 +27,9 @@
       |model name|booktitle|title|author|
       |:-:|:-:|:-:|:-:|
       ||ACM2017|Deep Learning based Recommender System: A Survey and New Perspectives|Shuai Zhang, Lina Yao, Aixin Sun, and Yi Tay
+
+- eBook
+
+  |title|detail|
+  |:-:|:-:|
+  |prml|机器学习
