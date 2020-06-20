@@ -19,6 +19,7 @@
     TransA|arXiv2015|TransA: An Adaptive Approach for Knowledge Graph Embedding|Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu
     TranSparse|AAAI2016|Knowledge Graph Completion with Adaptive Sparse Transfer Matrix|Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao
     KG2E|CIKM2015|Learning to Represent Knowledge Graphs with Gaussian Embedding|Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao
+    TransG|ACL2016|A Generative Model for Knowledge Graph Embedding|Han Xiao, Minlie Huang∗, Xiaoyan Zhu
 
 - RecommendSystem|
 
