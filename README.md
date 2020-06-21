@@ -3,34 +3,23 @@
 会按照技术分类进行划分，新建不同级别的文件夹。
 如果有同学在看到该仓库后，有阅读相同的论文，可以通过邮件与我沟通联系 zhaoliang19960421@outlook.com
 
-- GraphEmbedding
-  - SurveyReview
-    |model name|booktitle|title|author|
-    |:-:|:-:|:-:|:-:|
+- Paper
 
-  - TransX
-    |model name|booktitle|title|author|
-    |:-:|:-:|:-:|:-:|
-    TransE|NIPS2013|Translating Embeddings for Modeling Multi-relational Data|Antoine Bordes, Nicolas Usunier, Alberto Garcia-Dura ́n
-    TransH|AAAI2014|Knowledge Graph Embedding by Translating on Hyperplanes|Zhen Wang, Jianwen Zhang, Jianlin Feng, Zheng Chen
-    TransR|AAAI2015|Learning Entity and Relation Embeddings for Knowledge Graph Completion|Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, Xuan Zhu
-    TransD|ACL2015|Knowledge Graph Embedding via Dynamic Mapping Matrix |Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu and Jun Zhao
-    TransM|PACLIC2014|Transition-based Knowledge Graph Embedding with Relational Mapping Properties|Miao Fan, Qiang Zhou, Emily Chang, Thomas Fang Zheng,
-    TransA|arXiv2015|TransA: An Adaptive Approach for Knowledge Graph Embedding|Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu
-    TranSparse|AAAI2016|Knowledge Graph Completion with Adaptive Sparse Transfer Matrix|Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao
-    KG2E|CIKM2015|Learning to Represent Knowledge Graphs with Gaussian Embedding|Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao
-    TransG|ACL2016|A Generative Model for Knowledge Graph Embedding|Han Xiao, Minlie Huang∗, Xiaoyan Zhu
-
-- RecommendSystem|
-
-    - SurveyReview
-    
-      |model name|booktitle|title|author|
-      |:-:|:-:|:-:|:-:|
-      ||ACM2017|Deep Learning based Recommender System: A Survey and New Perspectives|Shuai Zhang, Lina Yao, Aixin Sun, and Yi Tay
+    |domain|model name|booktitle|title|author|
+    |:-:|:-:|:-:|:-:|:-:|
+    GraphEmbedding TransX|TransE|NIPS2013|Translating Embeddings for Modeling Multi-relational Data|Antoine Bordes, Nicolas Usunier, Alberto Garcia-Dura ́n
+    GraphEmbedding TransX|TransH|AAAI2014|Knowledge Graph Embedding by Translating on Hyperplanes|Zhen Wang, Jianwen Zhang, Jianlin Feng, Zheng Chen
+    GraphEmbedding TransX|TransR|AAAI2015|Learning Entity and Relation Embeddings for Knowledge Graph Completion|Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, Xuan Zhu
+    GraphEmbedding TransX|TransD|ACL2015|Knowledge Graph Embedding via Dynamic Mapping Matrix |Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu and Jun Zhao
+    GraphEmbedding TransX|TransM|PACLIC2014|Transition-based Knowledge Graph Embedding with Relational Mapping Properties|Miao Fan, Qiang Zhou, Emily Chang, Thomas Fang Zheng,
+    GraphEmbedding TransX|TransA|arXiv2015|TransA: An Adaptive Approach for Knowledge Graph Embedding|Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu
+    GraphEmbedding TransX|TranSparse|AAAI2016|Knowledge Graph Completion with Adaptive Sparse Transfer Matrix|Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao
+    GraphEmbedding TransX|KG2E|CIKM2015|Learning to Represent Knowledge Graphs with Gaussian Embedding|Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao
+    GraphEmbedding TransX|TransG|ACL2016|A Generative Model for Knowledge Graph Embedding|Han Xiao, Minlie Huang∗, Xiaoyan Zhu
+    |RecommendSystem SurveyReview||ACM2017|Deep Learning based Recommender System: A Survey and New Perspectives|Shuai Zhang, Lina Yao, Aixin Sun, and Yi Tay
 
 - eBook
 
-  |title|detail|
-  |:-:|:-:|
-  |prml|机器学习
+  |title|domian|detail|
+  |:-:|:-:|:-:|
+  |prml|ML|基础算法及理论讲解
