@@ -16,7 +16,6 @@
     GraphEmbedding TransX|TranSparse|AAAI2016|Knowledge Graph Completion with Adaptive Sparse Transfer Matrix|Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao
     GraphEmbedding TransX|KG2E|CIKM2015|Learning to Represent Knowledge Graphs with Gaussian Embedding|Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao
     GraphEmbedding TransX|TransG|ACL2016|A Generative Model for Knowledge Graph Embedding|Han Xiao, Minlie Huang∗, Xiaoyan Zhu
-    |RecommendSystem SurveyReview||ACM2017|Deep Learning based Recommender System: A Survey and New Perspectives|Shuai Zhang, Lina Yao, Aixin Sun, and Yi Tay
     |Dialogue system|PLATO2|ACL2020|PLATO-2- Towards Building an Open-Domain Chatbot via Curriculum Learning|Siqi Bao,Huang He,Fan Wang,Hua Wu,Haifeng Wang,Wenquan Wu,Zhen Guo,Zhibin Liu,Xinchao Xu
     |GraphEmbedding TransX|DIN|KDD2018|Deep Interest Network for Click-Through Rate Prediction|Guorui Zhou, Chengru Song, Xiaoqiang Zhu
 Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai
